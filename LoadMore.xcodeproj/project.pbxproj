@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		51C30AEB8D1D01E207F82476 /* Pods_LoadMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B366FC6E8E38F042AF5FAFB7 /* Pods_LoadMore.framework */; };
 		6C2BE8991FC19063007D8430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2BE8981FC19063007D8430 /* AppDelegate.swift */; };
-		6C2BE89B1FC19063007D8430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2BE89A1FC19063007D8430 /* ViewController.swift */; };
 		6C2BE89E1FC19063007D8430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2BE89C1FC19063007D8430 /* Main.storyboard */; };
 		6C2BE8A01FC19063007D8430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C2BE89F1FC19063007D8430 /* Assets.xcassets */; };
 		6C2BE8A31FC19063007D8430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C2BE8A11FC19063007D8430 /* LaunchScreen.storyboard */; };
+		6C2BE8AD1FC1934C007D8430 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2BE8AC1FC1934C007D8430 /* CountriesTableViewController.swift */; };
+		6C2F93701FC2D98B0089EF2E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2F936F1FC2D98B0089EF2E /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +21,12 @@
 		41A888BD03BC8F8A97912559 /* Pods-LoadMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMore/Pods-LoadMore.release.xcconfig"; sourceTree = "<group>"; };
 		6C2BE8951FC19063007D8430 /* LoadMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2BE8981FC19063007D8430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C2BE89A1FC19063007D8430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C2BE89D1FC19063007D8430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C2BE89F1FC19063007D8430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C2BE8A21FC19063007D8430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C2BE8A41FC19063007D8430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C2BE8AC1FC1934C007D8430 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		6C2F936F1FC2D98B0089EF2E /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		B366FC6E8E38F042AF5FAFB7 /* Pods_LoadMore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadMore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,11 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				6C2BE8981FC19063007D8430 /* AppDelegate.swift */,
-				6C2BE89A1FC19063007D8430 /* ViewController.swift */,
 				6C2BE89C1FC19063007D8430 /* Main.storyboard */,
 				6C2BE89F1FC19063007D8430 /* Assets.xcassets */,
 				6C2BE8A11FC19063007D8430 /* LaunchScreen.storyboard */,
 				6C2BE8A41FC19063007D8430 /* Info.plist */,
+				6C2BE8AC1FC1934C007D8430 /* CountriesTableViewController.swift */,
+				6C2F936F1FC2D98B0089EF2E /* Country.swift */,
 			);
 			path = LoadMore;
 			sourceTree = "<group>";
@@ -229,7 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2BE89B1FC19063007D8430 /* ViewController.swift in Sources */,
+				6C2BE8AD1FC1934C007D8430 /* CountriesTableViewController.swift in Sources */,
+				6C2F93701FC2D98B0089EF2E /* Country.swift in Sources */,
 				6C2BE8991FC19063007D8430 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
